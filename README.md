@@ -12,10 +12,7 @@ Please generate at least 100000 events (messages) to simulate M/M/1 queueing sys
 
 $$
 E[D]=\frac{E[x]}{\lambda_D}；<br>
-
 E[X]=\sum_{j=0}^NjP(j)； <br>
-
 E[W]=E[D]-\frac{1}{\mu}；<br>
-
 E[Q]=\lambda_DE[W]；<br>
 $$
