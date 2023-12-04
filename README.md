@@ -13,12 +13,12 @@ Please generate at least 100000 events (messages) to simulate M/M/1 queueing sys
 
 
 $$
-\rho=\frac{\lambda}{\mu}；<br>
-\lambda_D=\lambda; <br>
-E[D]=\frac{E[x]}{\lambda_D}=\frac{1}{\mu(1-\rho)}；<br>
-E[X]=\sum_{j=0}^\infty jP(j)=\frac{\rho}{1-\rho}； <br>
-E[W]=E[D]-\frac{1}{\mu}=\frac{\rho}{\mu(1-\rho)}；<br>
-E[Q]=\lambda_DE[W]=\frac{\rho^2}{1-\rho}；<br>
+\displaylines{\rho=\frac{\lambda}{\mu}；\\
+\lambda_D=\lambda; \\
+E[D]=\frac{E[x]}{\lambda_D}=\frac{1}{\mu(1-\rho)}；\\
+E[X]=\sum_{j=0}^\infty jP(j)=\frac{\rho}{1-\rho}； \\
+E[W]=E[D]-\frac{1}{\mu}=\frac{\rho}{\mu(1-\rho)}；\\
+E[Q]=\lambda_DE[W]=\frac{\rho^2}{1-\rho}；}
 $$
 
 Problem 2 M/M/2/3
@@ -38,8 +38,8 @@ You may modify any part of the sample code provided for Problem 1 (for M/M/1) to
 ## Analytical Result:
 
 $$
-E[D]=\frac{E[x]}{\lambda_D}；<br>
-E[X]=\sum_{j=0}^NjP(j)； <br>
-E[W]=E[D]-\frac{1}{\mu}；<br>
-E[Q]=\lambda_DE[W]；<br>
+\displaylines{E[D]=\frac{E[x]}{\lambda_D}；\\
+E[X]=\sum_{j=0}^NjP(j)； \\
+E[W]=E[D]-\frac{1}{\mu}；\\
+E[Q]=\lambda_DE[W];}
 $$
